@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\munkh\source\repos\challenge\angry_children2.c\angry_children2.c\source.cpp(36): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\munkh\source\repos\challenge\angry_children2.c\angry_children2.c\source.cpp(34): warning C4101: 'min': unreferenced local variable
+  angry_children2.c.vcxproj -> C:\Users\munkh\Source\Repos\challenge\angry_children2.c\Debug\angry_children2.cpp.exe
+  angry_children2.c.vcxproj -> C:\Users\munkh\Source\Repos\challenge\angry_children2.c\Debug\angry_children2.cpp.pdb (Partial PDB)

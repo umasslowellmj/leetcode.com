@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\munkh\source\repos\challenge\smriti.cpp\smriti.cpp\source.cpp(25): warning C4018: '<': signed/unsigned mismatch
+c:\users\munkh\source\repos\challenge\smriti.cpp\smriti.cpp\source.cpp(28): warning C4018: '<': signed/unsigned mismatch
+c:\users\munkh\source\repos\challenge\smriti.cpp\smriti.cpp\source.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\munkh\source\repos\challenge\smriti.cpp\smriti.cpp\source.cpp(19): warning C4101: 'pos': unreferenced local variable
+  smriti.cpp.vcxproj -> C:\Users\munkh\Source\Repos\challenge\smriti.cpp\Debug\smriti.cpp.exe
+  smriti.cpp.vcxproj -> C:\Users\munkh\Source\Repos\challenge\smriti.cpp\Debug\smriti.cpp.pdb (Partial PDB)

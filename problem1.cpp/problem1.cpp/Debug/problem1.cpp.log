@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\munkh\source\repos\challenge\problem1.cpp\problem1.cpp\source.cpp(34): warning C4018: '<': signed/unsigned mismatch
+c:\users\munkh\source\repos\challenge\problem1.cpp\problem1.cpp\source.cpp(25): warning C4715: 'foo': not all control paths return a value
+  problem1.cpp.vcxproj -> C:\Users\munkh\Source\Repos\challenge\problem1.cpp\Debug\problem1.cpp.exe
+  problem1.cpp.vcxproj -> C:\Users\munkh\Source\Repos\challenge\problem1.cpp\Debug\problem1.cpp.pdb (Partial PDB)
