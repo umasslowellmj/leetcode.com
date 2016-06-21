@@ -1,0 +1,32 @@
+a = raw_input()[::-1]
+b= raw_input()[::-1]
+carry = 0
+c = []
+ 
+if len(a)<=len(b):
+	for i in range(len(a)):
+		temp = int(a[i])+int(b[i]) + carry
+		carry = temp//10
+		temp = temp%10
+		c.insert(i,str(temp))
+	for i in range(len(b)-len(a)):
+		temp = int(b[i+len(a)])+carry
+		carry = temp//10
+		temp = temp%10
+		c.insert(i+len(a)+1,str(temp))
+else:
+	for i in range(len(b)):
+		temp = int(a[i])+int(b[i]) + carry
+		carry = temp//10
+		temp = temp%10
+		c.insert(i,str(temp))
+	for i in range(len(a)-len(b)):
+		temp = int(a[i+len(b)])+carry
+		carry = temp//10
+		temp = temp%10
+		c.insert(i+len(b)+1,str(temp))
+c = c[::-1]
+print a[::-1]
+print b[::-1]
+print "".join(c)
+ 
