@@ -1,0 +1,37 @@
+import random
+import math
+from math import modf
+
+dry_range = [[0,1]]
+
+def add_drop(a, t):
+	
+	if t-0.5>dry_range[a][0] and t+0.5<dry_range[a][1]:
+		dry_range.insert(a,[dry_range[a][0],t-0.5])
+		dry_range.insert(a+1,[t+0.5,dry_range[a][1]])
+		dry_range.remove(dry_range[a])
+	elif t-0.5<dry_range[a][0] and t+0.5<dry_range[a][1]:
+		dry_range[a][0] = t+0.5
+	elif t-0.5>dry_range[a][0] and t+0.5>dry_range[a][1]:
+		dry_range[a][1] = t-0.5
+	else:
+		dry_range.remove(dry_range[a])
+
+def raindrop(dry_range,pos):		
+	b = len(dry_range)
+	a = b/2 + b%2
+	t = float("{0:.2f}".format(random.uniform(0,1)))
+	if a==1:
+	
+		print t
+		add_drop(pos,t)
+	elif dry_range[a-1][1]>=t+0.5:
+		raindrop(dry_range[0:a-1],0)
+	else:
+		raindrop(dry_range[a:b],a)
+time = 0
+while dry_range:
+	
+	raindrop(dry_range,0)
+	time = time +1
+print time
